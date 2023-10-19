@@ -1,5 +1,9 @@
 package br.com.tteles;
 
+/**
+ * @author tarcio teles
+ */
+
 public class Exemplos {
 	
 	private int codigo = 2;
@@ -12,21 +16,36 @@ public class Exemplos {
 	
 	private String texto;
 	
-	private boolean status;
+	private boolean = false;
 	
 	private short shor = 0; // Você pode atribuir um valor inicial aqui.
 	
 	private byte bi = 0; // Você pode atribuir um valor inicial aqui.
 	
+	public Exemplos() {
+
+	}
+	
+	public Exemplos(int val) {
+		this.codigo = val;
+	}
+	
 	public String retornaTexto() {
-		return "Hello Word";
+		this.codigo = 0;
+		return "Hello Word!";
 	}
 	
 	public int retornaInteiro() { // Corrigido o tipo de retorno para int
-		return 150;
+		int val = 10;
+		String texto = "Texto";
+		this.texto = null;
+		return val;	
+		
+		//return 150;
 	}
 	
 	public long retornaLong(long num) { // Corrigido o tipo de argumento para long
+		this.texto = "retornaLong";
 		return num;
 	}
 	
