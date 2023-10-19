@@ -1,9 +1,5 @@
 package br.com.tteles;
 
-/**
- * @author tarcio.teles
- */
-
 public class Exemplos {
 	
 	private int codigo = 2;
@@ -18,25 +14,23 @@ public class Exemplos {
 	
 	private boolean status;
 	
-	private short shor;
+	private short shor = 0; // Você pode atribuir um valor inicial aqui.
 	
-	private  byte bi;
+	private byte bi = 0; // Você pode atribuir um valor inicial aqui.
 	
 	public String retornaTexto() {
 		return "Hello Word";
 	}
 	
-	public String retornaInteiro() {
+	public int retornaInteiro() { // Corrigido o tipo de retorno para int
 		return 150;
 	}
 	
-	public long retornaLong(Long num) {
+	public long retornaLong(long num) { // Corrigido o tipo de argumento para long
 		return num;
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
-
 }
