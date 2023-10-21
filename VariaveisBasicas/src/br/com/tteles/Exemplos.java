@@ -16,7 +16,7 @@ public class Exemplos {
 	
 	private String texto;
 	
-	private boolean = false;
+	//private boolean = false;
 	
 	private short shor = 0; // Você pode atribuir um valor inicial aqui.
 	
