@@ -27,7 +27,9 @@ public class ExeArrayList {
         lista.add("João da Silva");
         lista.add("Antonio Sousa");
         lista.add("Lúcia Ferreira");
-        Collections.sort(lista);
+        Collections.sort(lista); 
+        //Esse collections é diferente da classe Ordeu em ordem ascendente 
+        //Ordem alfabetica
         System.out.println(lista);
         System.out.println("");
     }
